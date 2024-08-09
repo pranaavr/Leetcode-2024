@@ -4,10 +4,10 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-        visited = set()
-        for n in nums:
-            if n in visited:
+        map = {}
+        for i in nums:
+            if i in map:
                 return True
             else:
-                visited.add(n)
+                map[i] = 1
         return False
