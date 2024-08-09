@@ -8,5 +8,6 @@ class Solution(object):
         for n in nums:
             if n in visited:
                 return True
-            visited.add(n)
+            else:
+                visited.add(n)
         return False
