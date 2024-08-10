@@ -1,20 +1,12 @@
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-
-        for i in range(len(nums)):
-            val = target - nums[i]
-            if val in nums and nums.index(val) != i:
-                return [i, nums.index(val)]
-
-        for i,n in enumerate(nums):
-            val = target - n
-            if val in nums:
-                i2 = [i for i, n in enumerate(nums) if n == val]
-                return [i, i2]
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        hash = {}
         
-        return []
+        for i, n in enumerate(nums):
+            
+            diff = target - n
+            
+            if diff in hash:
+                return [hash[diff], i]
+            hash[n] = i
+        
