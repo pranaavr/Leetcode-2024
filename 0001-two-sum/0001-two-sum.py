@@ -10,3 +10,11 @@ class Solution(object):
             val = target - nums[i]
             if val in nums and nums.index(val) != i:
                 return [i, nums.index(val)]
+
+        for i,n in enumerate(nums):
+            val = target - n
+            if val in nums:
+                i2 = [i for i, n in enumerate(nums) if n == val]
+                return [i, i2]
+        
+        return []
