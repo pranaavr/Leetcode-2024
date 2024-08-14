@@ -12,12 +12,11 @@ class Solution(object):
                 second = stack.pop()
                 first = stack.pop()
                 if token == '+':
-                    result = first + second
+                    stack.append(first + second)
                 elif token == '-':
-                    result = first - second
+                    stack.append(first - second)
                 elif token == '*':
-                    result = first * second
+                    stack.append(first * second)
                 elif token == '/':
-                    result = int(float(first) / second)
-                stack.append(result)
+                   stack.append(int(float(first) / second))
         return stack.pop()
