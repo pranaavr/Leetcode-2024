@@ -5,14 +5,14 @@ class Solution(object):
         :rtype: int
         """
         left = 0
-        right = 0
-        longest = ''
-        for right in range(len(s)):
-            sub = s[left:right]
-            if s[right] in sub:
-                left = right
-            if len(sub) > len(longest):
-                longest = sub
-            right += 1
+        max_length = 0
+        char_index_map = {}
 
-        return len(longest)
+        for right in range(len(s)):
+            if s[right] in char_index_map and char_index_map[s[right]] >= left:
+                left = char_index_map[s[right]] + 1
+            
+            char_index_map[s[right]] = right
+            max_length = max(max_length, right - left + 1)
+
+        return max_length
