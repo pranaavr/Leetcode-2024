@@ -4,9 +4,10 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        max_number = len(nums)-1
-
-        for i in range(1, max_number+1):
-            if nums.count(i) >= 2:
-                return i
+        seen = set()
+        for num in nums:
+            if num in seen:
+                return num
+            else:
+                seen.add(num)
         
