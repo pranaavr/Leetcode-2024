@@ -1,46 +1,35 @@
 # Definition for singly-linked list.
-# class ListNode(object):
+# class ListNode:
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-class Solution(object):
-    def reverseKGroup(self, head, k):
-        """
-        :type head: ListNode
-        :type k: int
-        :rtype: ListNode
-        """
-        def reverse(head, k):
-            curr = head
-            prev = None
-            while k > 0:
-                nxt = curr.next
-                curr.next = prev
-                prev = curr
-                curr = nxt
-                k -= 1
-            return prev
-        
-        dummy = ListNode()
+class Solution:
+    def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
+        dummy = ListNode(0)
         dummy.next = head
-        prev_group = dummy
-        while True:
-            kth = prev_group
-            count = 0
-            while kth and count < k:
-                kth = kth.next
-                count += 1
-            if not kth:
-                break
-            
-            next_group = kth.next
-            kth.next = None
-
-            new_group_head = reverse(prev_group.next, k)
-            old_group_head = prev_group.next
-            prev_group.next = new_group_head
-            old_group_head.next = next_group
-
-            prev_group = old_group_head
+        group_prev = dummy        
         
+        while True:
+            kth = group_prev
+            for _ in range(k):
+                kth = kth.next
+                if not kth:
+                    return dummy.next
+            group_next = kth.next
+
+            prev = group_next
+            temp = group_prev.next
+            while temp != group_next:
+                front = temp.next
+                temp.next = prev
+                prev = temp
+                temp = front
+            
+            front = group_prev.next
+            group_prev.next = kth
+            group_prev = front
+
         return dummy.next
+            
+            
+                
