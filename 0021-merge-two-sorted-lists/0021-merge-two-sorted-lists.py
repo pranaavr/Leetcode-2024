@@ -10,17 +10,21 @@ class Solution(object):
         :type list2: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
-        curr = sentinel = ListNode()
+        curr = ListNode()
 
-        while list1 and list2:
-            if list1.val < list2.val:
-                curr.next = list1
-                list1 = list1.next
-            elif list2.val <= list1.val:
-                curr.next = list2
-                list2 = list2.next
-            curr = curr.next
+        def helper(nod, list1, list2):
+            if not list2:
+                nod.next = list1
+                return
+            if not list1:
+                nod.next = list2
+                return
+            if list1.val <= list2.val:
+                nod.next = list1
+                helper(nod.next, list1.next, list2)
+            else:
+                nod.next = list2
+                helper(nod.next, list1, list2.next)
         
-        curr.next = list1 or list2
-        
-        return sentinel.next
+        helper(curr, list1, list2)
+        return curr.next
