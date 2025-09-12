@@ -1,23 +1,22 @@
-class Solution(object):
-    def isValid(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
-        CHARS = {
-            '[':']',
-            '{':'}',
-            '(':')'
+class Solution:
+    def isValid(self, s: str) -> bool:
+        stack = []
+        
+        pairs = {
+            ')':'(',
+            ']':'[',
+            '}':'{'
         }
-        left_chars = []
         
-        for c in s:
-            if c in CHARS:
-                left_chars.append(c)
-            elif left_chars and c == CHARS[left_chars[-1]]:
-                left_chars.pop()
+        for char in s:
+            if not stack:
+                stack.append(char)
+                continue
+            elif char in pairs and stack[-1] == pairs[char]:
+                stack.pop()
             else:
-                return False
-        
-        return not left_chars
-        
+                stack.append(char)
+
+        if stack:
+            return False
+        return True
