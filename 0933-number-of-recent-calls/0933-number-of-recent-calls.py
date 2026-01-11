@@ -7,10 +7,13 @@ class RecentCounter:
     def ping(self, t: int) -> int:
         self.pings.append(t)
         mini = t-3000
-        for i in range(len(self.pings)):
-            if self.pings[i] < mini:
-                self.pings.pop(i)
+        i = 0
+        while True:
+            curr = self.pings[i]
+            if curr < mini:
+                i += 1
             else:
+                self.pings = self.pings[i:]
                 break
         return len(self.pings)
         
