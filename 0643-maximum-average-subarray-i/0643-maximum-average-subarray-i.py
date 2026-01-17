@@ -3,7 +3,7 @@ class Solution:
         total = sum(nums[:k])
         best = total/k
         for i in range(k, len(nums)):
-            total = total - nums[i-4] + nums[i]
+            total = total - nums[i-k] + nums[i]
             if total/k > best:
                 best = total/k
         return best
