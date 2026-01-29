@@ -7,12 +7,13 @@
 class Solution:
     def longestZigZag(self, root: Optional[TreeNode]) -> int:
         
-        mx = []
+        mx = float('-inf')
 
         def trav(root, zag=True, ct=0):
             if not root:
                 return
-            mx.append(ct)
+            nonlocal mx
+            mx = max(ct, mx)
             if zag:
                 trav(root.left, False, ct+1)
                 trav(root.right, True, 1)
@@ -23,4 +24,4 @@ class Solution:
         trav(root, True, 0)
         trav(root, False, 0)
 
-        return max(mx)
+        return mx
