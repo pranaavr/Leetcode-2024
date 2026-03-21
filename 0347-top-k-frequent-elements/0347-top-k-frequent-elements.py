@@ -1,17 +1,17 @@
-from collections import defaultdict
+from collections import Counter
+
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        cts = defaultdict(int)
-        for n in nums:
-            cts[n] += 1
+        # 1. Count frequencies - O(n)
+        counts = Counter(nums)
         
+        # 2. Bucket sort: index represents frequency - O(n)
+        buckets = [[] for _ in range(len(nums) + 1)]
+        for val, freq in counts.items():
+            buckets[freq].append(val)
+        
+        # 3. Collect top k elements - O(n)
         res = []
-        buckets = [[] for _ in range(len(nums)+1)]
-
-        # create buckets
-        for key, val in cts.items():
-            buckets[val].append(key)
-        
         for i in range(len(buckets) - 1, 0, -1):
             for n in buckets[i]:
                 res.append(n)
