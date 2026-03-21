@@ -4,7 +4,16 @@ class Solution:
         cts = defaultdict(int)
         for n in nums:
             cts[n] += 1
-        l = list(cts.items())
-        l.sort(key = lambda x:x[1])
-        return [x[0] for x in l[-k:]]
         
+        ret = []
+        l = [[] for _ in range(len(nums)+1)]
+
+        # create buckets
+        for key, val in cts.items():
+            l[val].append(key)
+        
+        while len(ret) < k:
+            cur = l.pop()
+            if len(cur) > 0:
+                ret.extend(cur[:k-len(ret)+1])
+        return ret
