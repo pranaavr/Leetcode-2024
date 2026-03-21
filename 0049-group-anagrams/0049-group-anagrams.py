@@ -1,14 +1,7 @@
-class Solution(object):
-    def groupAnagrams(self, strs):
-        """
-        :type strs: List[str]
-        :rtype: List[List[str]]
-        """
-        map = {}
-        for st in strs:
-            s = ''.join(sorted(st))
-            if s in map.keys():
-                map[s].append(st)
-            else:
-                map[s] = [st]
-        return map.values()
+from collections import defaultdict
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        hsh = defaultdict(list)
+        for s in strs:
+            hsh[tuple(sorted(s))].append(s)
+        return list(hsh.values())
