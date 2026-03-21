@@ -1,17 +1,10 @@
-class Solution(object):
-    def topKFrequent(self, nums, k):
-        """
-        :type nums: List[int]
-        :type k: int
-        :rtype: List[int]
-        """
-        map = {}
+from collections import defaultdict
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        cts = defaultdict(int)
         for n in nums:
-            if n in map:
-                map[n] += 1
-            else:
-                map[n] = 1
-
-        frequencies = list(map.items())
-        frequencies.sort(key=lambda a: a[1], reverse=True)
-        return [element for element, count in frequencies[:k]]
+            cts[n] += 1
+        l = list(cts.items())
+        l.sort(key = lambda x:x[1])
+        return [x[0] for x in l[-k:]]
+        
