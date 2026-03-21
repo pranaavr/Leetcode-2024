@@ -5,15 +5,15 @@ class Solution:
         for n in nums:
             cts[n] += 1
         
-        ret = []
-        l = [[] for _ in range(len(nums)+1)]
+        res = []
+        buckets = [[] for _ in range(len(nums)+1)]
 
         # create buckets
         for key, val in cts.items():
-            l[val].append(key)
+            buckets[val].append(key)
         
-        while len(ret) < k:
-            cur = l.pop()
-            if len(cur) > 0:
-                ret.extend(cur[:k-len(ret)+1])
-        return ret
+        for i in range(len(buckets) - 1, 0, -1):
+            for n in buckets[i]:
+                res.append(n)
+                if len(res) == k:
+                    return res
