@@ -7,6 +7,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/pranaavr/Leetcode-2024/tree/main/0049-group-anagrams/) | Medium |
+| [0150-evaluate-reverse-polish-notation](https://github.com/pranaavr/Leetcode-2024/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/pranaavr/Leetcode-2024/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/pranaavr/Leetcode-2024/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Hash Table
@@ -50,9 +51,14 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/pranaavr/Leetcode-2024/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0155-min-stack](https://github.com/pranaavr/Leetcode-2024/tree/main/0155-min-stack/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0155-min-stack](https://github.com/pranaavr/Leetcode-2024/tree/main/0155-min-stack/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/pranaavr/Leetcode-2024/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 <!---LeetCode Topics End-->
