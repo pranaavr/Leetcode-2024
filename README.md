@@ -47,4 +47,12 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/pranaavr/Leetcode-2024/tree/main/0238-product-of-array-except-self/) | Medium |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0155-min-stack](https://github.com/pranaavr/Leetcode-2024/tree/main/0155-min-stack/) | Medium |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0155-min-stack](https://github.com/pranaavr/Leetcode-2024/tree/main/0155-min-stack/) | Medium |
 <!---LeetCode Topics End-->
