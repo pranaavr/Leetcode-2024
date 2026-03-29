@@ -1,21 +1,21 @@
-class Solution(object):
-    def trap(self, height):
-        """
-        :type height: List[int]
-        :rtype: int
-        """
-        
-        l, r = 0, len(height)-1
-        left_max, right_max = height[l], height[r]
-        trapped = 0
+class Solution:
+    def trap(self, height: List[int]) -> int:
+        l = 0
+        r = len(height)-1
 
+        maxL = 0
+        maxR = 0
+        collected = 0
         while l < r:
-            if left_max < right_max:
+            maxL = max(height[l], maxL)
+            collected += maxL - height[l]
+
+            maxR = max(height[r], maxR)
+            collected += maxR - height[r]
+
+            if maxL < maxR:
                 l += 1
-                left_max = max(left_max, height[l])
-                trapped += max(0, left_max-height[l])
             else:
                 r -= 1
-                right_max = max(right_max, height[r])
-                trapped += max(0, left_max-height[r])
-        return trapped
+
+        return collected
