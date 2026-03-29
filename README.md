@@ -6,6 +6,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/pranaavr/Leetcode-2024/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/pranaavr/Leetcode-2024/tree/main/0015-3sum/) | Medium |
 | [0042-trapping-rain-water](https://github.com/pranaavr/Leetcode-2024/tree/main/0042-trapping-rain-water/) | Hard |
 | [0049-group-anagrams](https://github.com/pranaavr/Leetcode-2024/tree/main/0049-group-anagrams/) | Medium |
@@ -68,6 +69,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/pranaavr/Leetcode-2024/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/pranaavr/Leetcode-2024/tree/main/0015-3sum/) | Medium |
 | [0042-trapping-rain-water](https://github.com/pranaavr/Leetcode-2024/tree/main/0042-trapping-rain-water/) | Hard |
 ## Dynamic Programming
@@ -78,4 +80,8 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/pranaavr/Leetcode-2024/tree/main/0042-trapping-rain-water/) | Hard |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0011-container-with-most-water](https://github.com/pranaavr/Leetcode-2024/tree/main/0011-container-with-most-water/) | Medium |
 <!---LeetCode Topics End-->
