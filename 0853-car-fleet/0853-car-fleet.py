@@ -1,16 +1,15 @@
-class Solution(object):
-    def carFleet(self, target, position, speed):
-        """
-        :type target: int
-        :type position: List[int]
-        :type speed: List[int]
-        :rtype: int
-        """
-        fleets = []
-        cars = sorted(zip(position, speed), key=lambda x: x[0], reverse=True)
-        for car in cars:
-            ttd = (target - car[0])/car[1]
-            if not fleets or ttd > fleets[-1]:
-                fleets.append(ttd)
+class Solution:
+    def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
         
-        return len(fleets)
+        cars = sorted(zip(position, speed), reverse=True)
+
+        stack = []
+
+        for p, s in cars:
+            # time it takes to reach target
+            t = (target-p)/s
+            
+            if not stack or t > stack[-1]:
+                stack.append(t)
+        
+        return len(stack)
