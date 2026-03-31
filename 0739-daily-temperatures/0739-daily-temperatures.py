@@ -4,12 +4,9 @@ class Solution:
         
         stack = []
         for i, temp in enumerate(temperatures):            
-            
             while stack and temp > stack[-1][1]:
                 less = stack.pop()
                 answer[less[0]] = i - less[0]
-            else:
-                stack.append((i, temp))
+            stack.append((i, temp))
 
-        
         return answer
