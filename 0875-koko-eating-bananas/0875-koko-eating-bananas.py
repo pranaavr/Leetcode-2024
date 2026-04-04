@@ -2,10 +2,8 @@ import math
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
 
-        piles.sort()
-
         l = 1
-        r = piles[-1]
+        r = max(piles)
 
         best = r
         while l <= r:
