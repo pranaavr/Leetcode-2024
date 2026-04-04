@@ -7,7 +7,7 @@ class Solution:
         l = 1
         r = piles[-1]
 
-        best = l
+        best = r
         while l <= r:
             k = (l+r)//2    # bananas per hour
             
