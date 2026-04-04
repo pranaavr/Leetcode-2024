@@ -15,6 +15,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | [0347-top-k-frequent-elements](https://github.com/pranaavr/Leetcode-2024/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0739-daily-temperatures](https://github.com/pranaavr/Leetcode-2024/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/pranaavr/Leetcode-2024/tree/main/0853-car-fleet/) | Medium |
+| [0875-koko-eating-bananas](https://github.com/pranaavr/Leetcode-2024/tree/main/0875-koko-eating-bananas/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -91,4 +92,8 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/pranaavr/Leetcode-2024/tree/main/0011-container-with-most-water/) | Medium |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0875-koko-eating-bananas](https://github.com/pranaavr/Leetcode-2024/tree/main/0875-koko-eating-bananas/) | Medium |
 <!---LeetCode Topics End-->
