@@ -17,7 +17,7 @@ class Solution:
                 tot += math.ceil(p/k)
             
             if tot <= h: # if total hours less than h, eating speed needs to decrease
-                best = k
+                best = min(best, k)
                 r = k - 1
             else: # if total hours more than h, eating speed needs to increase
                 l = k + 1
