@@ -24,7 +24,7 @@ class Solution:
                 l += 1
             else:
                 cur.add(s[r])
-                longest = max(longest, len(cur))
+                longest = max(longest, r-l+1)
                 r += 1
         
         return longest
