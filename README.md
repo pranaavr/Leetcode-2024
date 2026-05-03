@@ -15,6 +15,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | [0215-kth-largest-element-in-an-array](https://github.com/pranaavr/Leetcode-2024/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/pranaavr/Leetcode-2024/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/pranaavr/Leetcode-2024/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0621-task-scheduler](https://github.com/pranaavr/Leetcode-2024/tree/main/0621-task-scheduler/) | Medium |
 | [0739-daily-temperatures](https://github.com/pranaavr/Leetcode-2024/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/pranaavr/Leetcode-2024/tree/main/0853-car-fleet/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/pranaavr/Leetcode-2024/tree/main/0875-koko-eating-bananas/) | Medium |
@@ -24,6 +25,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | [0003-longest-substring-without-repeating-characters](https://github.com/pranaavr/Leetcode-2024/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0049-group-anagrams](https://github.com/pranaavr/Leetcode-2024/tree/main/0049-group-anagrams/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/pranaavr/Leetcode-2024/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0621-task-scheduler](https://github.com/pranaavr/Leetcode-2024/tree/main/0621-task-scheduler/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -36,6 +38,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | [0049-group-anagrams](https://github.com/pranaavr/Leetcode-2024/tree/main/0049-group-anagrams/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/pranaavr/Leetcode-2024/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/pranaavr/Leetcode-2024/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0621-task-scheduler](https://github.com/pranaavr/Leetcode-2024/tree/main/0621-task-scheduler/) | Medium |
 | [0853-car-fleet](https://github.com/pranaavr/Leetcode-2024/tree/main/0853-car-fleet/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -47,6 +50,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/pranaavr/Leetcode-2024/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/pranaavr/Leetcode-2024/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0621-task-scheduler](https://github.com/pranaavr/Leetcode-2024/tree/main/0621-task-scheduler/) | Medium |
 ## Bucket Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -55,6 +59,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/pranaavr/Leetcode-2024/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0621-task-scheduler](https://github.com/pranaavr/Leetcode-2024/tree/main/0621-task-scheduler/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -102,6 +107,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/pranaavr/Leetcode-2024/tree/main/0011-container-with-most-water/) | Medium |
+| [0621-task-scheduler](https://github.com/pranaavr/Leetcode-2024/tree/main/0621-task-scheduler/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
