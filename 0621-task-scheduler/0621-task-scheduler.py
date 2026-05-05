@@ -1,29 +1,24 @@
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
-        
-        freq = Counter(tasks)
-        timer = 0
-        cooldown = deque()
-        heap = []
 
-        # create max heap
-        for value in freq.values():
-            # why only the frequency and not the task? because we're only trying to find the least amount of time, not the order
-            heapq.heappush(heap, -value)
+        timer = 0
+        freqs = Counter(tasks)
+        heap = [] # should only hold available tasks
+        cooldown = deque()
+
+        for val in freqs.values():
+            heapq.heappush(heap, -val)
 
         while heap or cooldown:
-            if heap:
-                # get the most frequently occuring value
-                task = - heapq.heappop(heap)
-                if task > 1:
-                    # reduce the frequency and append to cooldown
-                    # we're acknowledging this task
-                    cooldown.append((task-1, timer+n+1))
             timer += 1
+            if heap:
+                val = heapq.heappop(heap) + 1
+                if val != 0:
+                    cooldown.append((val, timer+n))
 
-            # get items in cooldown that match the current time
-            while cooldown and cooldown[0][1] == timer:
-                task_count, next_iteration = cooldown.popleft()
-                heapq.heappush(heap, -task_count)
+            if cooldown and cooldown[0][1] <= timer:
+                heapq.heappush(heap, cooldown.popleft()[0])
 
         return timer
+
+        
