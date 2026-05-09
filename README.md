@@ -37,6 +37,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | [0015-3sum](https://github.com/pranaavr/Leetcode-2024/tree/main/0015-3sum/) | Medium |
 | [0049-group-anagrams](https://github.com/pranaavr/Leetcode-2024/tree/main/0049-group-anagrams/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/pranaavr/Leetcode-2024/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+| [0295-find-median-from-data-stream](https://github.com/pranaavr/Leetcode-2024/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/pranaavr/Leetcode-2024/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0621-task-scheduler](https://github.com/pranaavr/Leetcode-2024/tree/main/0621-task-scheduler/) | Medium |
 | [0853-car-fleet](https://github.com/pranaavr/Leetcode-2024/tree/main/0853-car-fleet/) | Medium |
@@ -49,6 +50,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/pranaavr/Leetcode-2024/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+| [0295-find-median-from-data-stream](https://github.com/pranaavr/Leetcode-2024/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/pranaavr/Leetcode-2024/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0621-task-scheduler](https://github.com/pranaavr/Leetcode-2024/tree/main/0621-task-scheduler/) | Medium |
 ## Bucket Sort
@@ -81,6 +83,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0155-min-stack](https://github.com/pranaavr/Leetcode-2024/tree/main/0155-min-stack/) | Medium |
+| [0295-find-median-from-data-stream](https://github.com/pranaavr/Leetcode-2024/tree/main/0295-find-median-from-data-stream/) | Hard |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -92,6 +95,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | [0011-container-with-most-water](https://github.com/pranaavr/Leetcode-2024/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/pranaavr/Leetcode-2024/tree/main/0015-3sum/) | Medium |
 | [0042-trapping-rain-water](https://github.com/pranaavr/Leetcode-2024/tree/main/0042-trapping-rain-water/) | Hard |
+| [0295-find-median-from-data-stream](https://github.com/pranaavr/Leetcode-2024/tree/main/0295-find-median-from-data-stream/) | Hard |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -128,4 +132,8 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | [0002-add-two-numbers](https://github.com/pranaavr/Leetcode-2024/tree/main/0002-add-two-numbers/) | Medium |
 | [0025-reverse-nodes-in-k-group](https://github.com/pranaavr/Leetcode-2024/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
 | [0206-reverse-linked-list](https://github.com/pranaavr/Leetcode-2024/tree/main/0206-reverse-linked-list/) | Easy |
+## Data Stream
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0295-find-median-from-data-stream](https://github.com/pranaavr/Leetcode-2024/tree/main/0295-find-median-from-data-stream/) | Hard |
 <!---LeetCode Topics End-->
