@@ -12,6 +12,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | [0049-group-anagrams](https://github.com/pranaavr/Leetcode-2024/tree/main/0049-group-anagrams/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/pranaavr/Leetcode-2024/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/pranaavr/Leetcode-2024/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+| [0200-number-of-islands](https://github.com/pranaavr/Leetcode-2024/tree/main/0200-number-of-islands/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/pranaavr/Leetcode-2024/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/pranaavr/Leetcode-2024/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/pranaavr/Leetcode-2024/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -140,9 +141,19 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/pranaavr/Leetcode-2024/tree/main/0200-number-of-islands/) | Medium |
 | [0994-rotting-oranges](https://github.com/pranaavr/Leetcode-2024/tree/main/0994-rotting-oranges/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/pranaavr/Leetcode-2024/tree/main/0200-number-of-islands/) | Medium |
 | [0994-rotting-oranges](https://github.com/pranaavr/Leetcode-2024/tree/main/0994-rotting-oranges/) | Medium |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/pranaavr/Leetcode-2024/tree/main/0200-number-of-islands/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/pranaavr/Leetcode-2024/tree/main/0200-number-of-islands/) | Medium |
 <!---LeetCode Topics End-->
