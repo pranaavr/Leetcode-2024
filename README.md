@@ -20,6 +20,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | [0621-task-scheduler](https://github.com/pranaavr/Leetcode-2024/tree/main/0621-task-scheduler/) | Medium |
 | [0695-max-area-of-island](https://github.com/pranaavr/Leetcode-2024/tree/main/0695-max-area-of-island/) | Medium |
 | [0739-daily-temperatures](https://github.com/pranaavr/Leetcode-2024/tree/main/0739-daily-temperatures/) | Medium |
+| [0746-min-cost-climbing-stairs](https://github.com/pranaavr/Leetcode-2024/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 | [0853-car-fleet](https://github.com/pranaavr/Leetcode-2024/tree/main/0853-car-fleet/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/pranaavr/Leetcode-2024/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0994-rotting-oranges](https://github.com/pranaavr/Leetcode-2024/tree/main/0994-rotting-oranges/) | Medium |
@@ -107,6 +108,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | [0042-trapping-rain-water](https://github.com/pranaavr/Leetcode-2024/tree/main/0042-trapping-rain-water/) | Hard |
 | [0070-climbing-stairs](https://github.com/pranaavr/Leetcode-2024/tree/main/0070-climbing-stairs/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/pranaavr/Leetcode-2024/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0746-min-cost-climbing-stairs](https://github.com/pranaavr/Leetcode-2024/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
