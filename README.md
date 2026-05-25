@@ -13,6 +13,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | [0051-n-queens](https://github.com/pranaavr/Leetcode-2024/tree/main/0051-n-queens/) | Hard |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/pranaavr/Leetcode-2024/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/pranaavr/Leetcode-2024/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+| [0198-house-robber](https://github.com/pranaavr/Leetcode-2024/tree/main/0198-house-robber/) | Medium |
 | [0200-number-of-islands](https://github.com/pranaavr/Leetcode-2024/tree/main/0200-number-of-islands/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/pranaavr/Leetcode-2024/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/pranaavr/Leetcode-2024/tree/main/0238-product-of-array-except-self/) | Medium |
@@ -108,6 +109,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | [0042-trapping-rain-water](https://github.com/pranaavr/Leetcode-2024/tree/main/0042-trapping-rain-water/) | Hard |
 | [0070-climbing-stairs](https://github.com/pranaavr/Leetcode-2024/tree/main/0070-climbing-stairs/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/pranaavr/Leetcode-2024/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0198-house-robber](https://github.com/pranaavr/Leetcode-2024/tree/main/0198-house-robber/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/pranaavr/Leetcode-2024/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 ## Monotonic Stack
 | Problem Name | Difficulty |
