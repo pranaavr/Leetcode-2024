@@ -92,6 +92,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/pranaavr/Leetcode-2024/tree/main/0002-add-two-numbers/) | Medium |
+| [0070-climbing-stairs](https://github.com/pranaavr/Leetcode-2024/tree/main/0070-climbing-stairs/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/pranaavr/Leetcode-2024/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -104,6 +105,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/pranaavr/Leetcode-2024/tree/main/0042-trapping-rain-water/) | Hard |
+| [0070-climbing-stairs](https://github.com/pranaavr/Leetcode-2024/tree/main/0070-climbing-stairs/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/pranaavr/Leetcode-2024/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 ## Monotonic Stack
 | Problem Name | Difficulty |
@@ -173,4 +175,8 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0684-redundant-connection](https://github.com/pranaavr/Leetcode-2024/tree/main/0684-redundant-connection/) | Medium |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0070-climbing-stairs](https://github.com/pranaavr/Leetcode-2024/tree/main/0070-climbing-stairs/) | Easy |
 <!---LeetCode Topics End-->
