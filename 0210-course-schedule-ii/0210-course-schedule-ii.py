@@ -22,5 +22,5 @@ class Solution:
                 if indegree[child] == 0:    # check if all prereqs for the course are met
                     queue.append(child)
         
-        return order if sum(indegree) == 0 else []
+        return order if len(order) == numCourses else []
 
