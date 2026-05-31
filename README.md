@@ -37,6 +37,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/pranaavr/Leetcode-2024/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0049-group-anagrams](https://github.com/pranaavr/Leetcode-2024/tree/main/0049-group-anagrams/) | Medium |
+| [0647-palindromic-substrings](https://github.com/pranaavr/Leetcode-2024/tree/main/0647-palindromic-substrings/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -103,6 +104,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | [0015-3sum](https://github.com/pranaavr/Leetcode-2024/tree/main/0015-3sum/) | Medium |
 | [0042-trapping-rain-water](https://github.com/pranaavr/Leetcode-2024/tree/main/0042-trapping-rain-water/) | Hard |
 | [0295-find-median-from-data-stream](https://github.com/pranaavr/Leetcode-2024/tree/main/0295-find-median-from-data-stream/) | Hard |
+| [0647-palindromic-substrings](https://github.com/pranaavr/Leetcode-2024/tree/main/0647-palindromic-substrings/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -110,6 +112,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | [0070-climbing-stairs](https://github.com/pranaavr/Leetcode-2024/tree/main/0070-climbing-stairs/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/pranaavr/Leetcode-2024/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0198-house-robber](https://github.com/pranaavr/Leetcode-2024/tree/main/0198-house-robber/) | Medium |
+| [0647-palindromic-substrings](https://github.com/pranaavr/Leetcode-2024/tree/main/0647-palindromic-substrings/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/pranaavr/Leetcode-2024/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 ## Monotonic Stack
 | Problem Name | Difficulty |
