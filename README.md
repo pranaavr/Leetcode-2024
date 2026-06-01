@@ -13,6 +13,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | [0051-n-queens](https://github.com/pranaavr/Leetcode-2024/tree/main/0051-n-queens/) | Hard |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/pranaavr/Leetcode-2024/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/pranaavr/Leetcode-2024/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+| [0152-maximum-product-subarray](https://github.com/pranaavr/Leetcode-2024/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/pranaavr/Leetcode-2024/tree/main/0198-house-robber/) | Medium |
 | [0200-number-of-islands](https://github.com/pranaavr/Leetcode-2024/tree/main/0200-number-of-islands/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/pranaavr/Leetcode-2024/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
@@ -114,6 +115,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | [0070-climbing-stairs](https://github.com/pranaavr/Leetcode-2024/tree/main/0070-climbing-stairs/) | Easy |
 | [0091-decode-ways](https://github.com/pranaavr/Leetcode-2024/tree/main/0091-decode-ways/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/pranaavr/Leetcode-2024/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0152-maximum-product-subarray](https://github.com/pranaavr/Leetcode-2024/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/pranaavr/Leetcode-2024/tree/main/0198-house-robber/) | Medium |
 | [0322-coin-change](https://github.com/pranaavr/Leetcode-2024/tree/main/0322-coin-change/) | Medium |
 | [0647-palindromic-substrings](https://github.com/pranaavr/Leetcode-2024/tree/main/0647-palindromic-substrings/) | Medium |
