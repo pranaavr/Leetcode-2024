@@ -17,6 +17,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | [0200-number-of-islands](https://github.com/pranaavr/Leetcode-2024/tree/main/0200-number-of-islands/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/pranaavr/Leetcode-2024/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/pranaavr/Leetcode-2024/tree/main/0238-product-of-array-except-self/) | Medium |
+| [0322-coin-change](https://github.com/pranaavr/Leetcode-2024/tree/main/0322-coin-change/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/pranaavr/Leetcode-2024/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0621-task-scheduler](https://github.com/pranaavr/Leetcode-2024/tree/main/0621-task-scheduler/) | Medium |
 | [0695-max-area-of-island](https://github.com/pranaavr/Leetcode-2024/tree/main/0695-max-area-of-island/) | Medium |
@@ -114,6 +115,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | [0091-decode-ways](https://github.com/pranaavr/Leetcode-2024/tree/main/0091-decode-ways/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/pranaavr/Leetcode-2024/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0198-house-robber](https://github.com/pranaavr/Leetcode-2024/tree/main/0198-house-robber/) | Medium |
+| [0322-coin-change](https://github.com/pranaavr/Leetcode-2024/tree/main/0322-coin-change/) | Medium |
 | [0647-palindromic-substrings](https://github.com/pranaavr/Leetcode-2024/tree/main/0647-palindromic-substrings/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/pranaavr/Leetcode-2024/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 ## Monotonic Stack
@@ -156,6 +158,7 @@ Collection of LeetCode questions solved by pranaavr - Created using [LeetHub v3]
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/pranaavr/Leetcode-2024/tree/main/0200-number-of-islands/) | Medium |
 | [0210-course-schedule-ii](https://github.com/pranaavr/Leetcode-2024/tree/main/0210-course-schedule-ii/) | Medium |
+| [0322-coin-change](https://github.com/pranaavr/Leetcode-2024/tree/main/0322-coin-change/) | Medium |
 | [0684-redundant-connection](https://github.com/pranaavr/Leetcode-2024/tree/main/0684-redundant-connection/) | Medium |
 | [0695-max-area-of-island](https://github.com/pranaavr/Leetcode-2024/tree/main/0695-max-area-of-island/) | Medium |
 | [0994-rotting-oranges](https://github.com/pranaavr/Leetcode-2024/tree/main/0994-rotting-oranges/) | Medium |
